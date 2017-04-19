@@ -5,15 +5,22 @@
  */
 package pk.edu.nust.seecs.gradebook.bo;
 
+import pk.edu.nust.seecs.gradebook.dao.CloDao;
+import pk.edu.nust.seecs.gradebook.entity.Clo;
+
 /**
  *
  * @author mmahad.bese14seecs
  */
 public class CloBo {
-    public void addClo(Clo clo){
-        
+
+    public void addClo(Clo clo) {
+        CloDao dao = new CloDao();
+        dao.addClo(clo);
     }
-    public void updateClo(Clo clo){
-        
+
+    public void updateClo(Clo clo) {
+        CloDao dao = new CloDao();
+        dao.updateClo(clo);
     }
 }
