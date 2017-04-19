@@ -1,7 +1,7 @@
 # GradeBook
 A Grade book using Hibernate and Spring
 
-#Implementation details and architecture
+# Implementation details and architecture
 First of all I added the password of mySQL in the hibernate.cfg.xml file.
 
 Then I created a db in mySQL called gradebook. The name was same as defined by the given code.
