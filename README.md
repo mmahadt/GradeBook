@@ -12,3 +12,5 @@ started to run.
 Then I made all the business Object (BO's) classes for grades, teachers etc.
 
 Then we make all the the methods of update and add in all the BOs
+
+Added the spring framework dependency in POM.xml
